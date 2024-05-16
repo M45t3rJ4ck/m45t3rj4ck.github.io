@@ -4,5 +4,5 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed center;
-    text-align: center;
+    align-items: center;
 }
