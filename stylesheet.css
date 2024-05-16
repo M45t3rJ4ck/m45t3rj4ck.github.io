@@ -1,3 +1,5 @@
 body{
-    background-image: url(LandingPageBackgroundImage.jpg) fixed center;
+    background-image:url(LandingPageBackgroundImage.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
 }
