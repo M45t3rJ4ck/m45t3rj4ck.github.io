@@ -5,10 +5,10 @@ body{
     background-repeat: no-repeat;
     background-position: fixed center;
     align-items: center;
-    text-decoration-color: white;
 }
 
 .discription{
+    text-decoration-color: whitesmoke;
     margin-top: 2cm;
     margin-left: 2cm;
 }
