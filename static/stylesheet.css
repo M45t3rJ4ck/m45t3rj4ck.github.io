@@ -5,9 +5,10 @@ body{
     background-repeat: no-repeat;
     background-position: fixed center;
     align-items: center;
+    text-decoration-color: white;
 }
 
 .discription{
     padding-top: 4cm;
-    text-decoration-color: white;
+    padding-left: 2.5cm;
 }
