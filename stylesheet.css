@@ -7,11 +7,7 @@ body{
     align-items: center;
 }
 
-h1{
-    padding-top: 100px;
-    padding-bottom: 25px;
-}
-
-p{
-    padding-top: 75px;
+.discription{
+    padding-top: 4em;
+    padding-bottom: 2em;
 }
