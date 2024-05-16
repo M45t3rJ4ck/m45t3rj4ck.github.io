@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url(LandingPageBackgroundImage.jpg);
+    background-image: url(/media/LandingPageBackgroundImage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed center;
