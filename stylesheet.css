@@ -1,5 +1,7 @@
 body{
-    background-image:url(LandingPageBackgroundImage.jpg);
-    background-size:100%;
-    background-repeat:no-repeat;
+    background-color: black;
+    background-image: url(LandingPageBackgroundImage.jpg);
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: fixed center;
 }
