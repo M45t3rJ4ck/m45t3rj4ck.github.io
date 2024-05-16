@@ -1,4 +1,4 @@
-body{
+body {
     background-color: black;
     background-image: url(/media/LandingPageBackgroundImage.jpg);
     background-size: cover;
@@ -7,8 +7,8 @@ body{
     align-items: center;
 }
 
-.discription{
-    color: white;
+.discription {
     margin-top: 3cm;
     margin-left: 2cm;
+    color: bisque;
 }
