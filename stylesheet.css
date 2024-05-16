@@ -1,7 +1,7 @@
 body{
     background-color: black;
     background-image: url(LandingPageBackgroundImage.jpg);
-    background-size: auto auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed center;
 }
