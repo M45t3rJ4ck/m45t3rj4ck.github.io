@@ -10,5 +10,7 @@ body {
 .discription {
     margin-top: 3cm;
     margin-left: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 3cm;
     color: maroon;
 }
