@@ -1,3 +1,4 @@
+{{define "base"}}
 <!DOCTYPE html>
 
 <html lang="en">
@@ -5,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="/static/stylesheet.css">
+        <link rel="stylesheet" href="/static/styles/baseStyles.css" type="text/css">
         <title>Nu3w4v3</title>
     </head>
     <body>
@@ -27,15 +28,15 @@
                         </form>
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                              <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <a class="nav-link dropdown-toggle" href="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 About
                               </a>
                               <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="/templates/html.html">Html</a></li>
-                                <li><a class="dropdown-item active" href="/templates/css.html">CSS</a></li>
+                                <li><a class="dropdown-item" href="/html">Html</a></li>
+                                <li><a class="dropdown-item" href="/css">CSS</a></li>
                                 <li><a class="dropdown-item" href="#">Javascript</a></li>
                                 <li><a class="dropdown-item" href="#">PostgreSQL</a></li>
                                 <li><a class="dropdown-item" href="#">Python</a></li>
@@ -44,24 +45,25 @@
                                 <li>
                                   <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="/templates/morehelp.html">More Help</a></li>
+                                <li><a class="dropdown-item" href="/moreHelp">More Help</a></li>
                               </ul>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="/templates/contactme.html">Contact Me</a>
+                              <a class="nav-link" href="/contactMe">Contact Me</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
-        <div class="discription">
-            <h1>Cascading Style Sheets</h1>
-            <hr>
-            <br>
-            <p>Here we will be styling the <a href="/templates/html.html">html</a> dicussed previously, adding more power to your ideas.</p>
-            <br>
+        <div class="col-md-8">
+
+          {{block "content" .}}
+          {{end}}
+
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
+
+{{end}}
